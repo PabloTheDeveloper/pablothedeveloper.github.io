@@ -1,5 +1,7 @@
 Under construction...
 
+Self link: https://pablothedeveloper.github.io
+
 A few precursors of what's to come:
 * Video Essays on:
   * http://www.catb.org/~esr/faqs/hacker-howto.html#why_this
