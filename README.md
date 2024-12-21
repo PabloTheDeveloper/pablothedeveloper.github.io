@@ -12,7 +12,9 @@ A few precursors of what's to come:
 * Summarizations & thoughts on said articles
 * Hobbies and progression on those hobbies (Singing, Dancing, Music Composition, AnimeCons)
 * General writings
+  * Quicks of Zsh & Bash (and how read -p cost me an hour in debugging ;(. )
 * knowledge management systems
 * UX readings & instances of applied practice (in my own life)
 * Book reviews
 * Podcast episode reviews
+
