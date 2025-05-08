@@ -206,26 +206,7 @@
         
             <a class="
 
-    terminal-mkdocs-side-nav-item" href="../tutorial.md">Tutorial</a>
-        
-    
-    </li>
-            
-        
-            
-            
-                
-                
-            
-
-             
-                <li class="terminal-mkdocs-side-nav-li-ul-li">
-    
-        
-        
-            <a class="
-
-    terminal-mkdocs-side-nav-item" href="../projects.md">Projects</a>
+    terminal-mkdocs-side-nav-item" href="../projects/">Projects</a>
         
     
     </li>
@@ -297,7 +278,7 @@
         
             <a class="
 
-    terminal-mkdocs-side-nav-item" href="../../writings/reflections.md">Reflections</a>
+    terminal-mkdocs-side-nav-item" href="../../writings/reflections/">Reflections</a>
         
     
     </li>
@@ -388,7 +369,7 @@
         
             <a class="
 
-    terminal-mkdocs-side-nav-item" href="../../hobbies/cinematography.md">Cinematography</a>
+    terminal-mkdocs-side-nav-item" href="../../hobbies/cinematography/">Cinematography</a>
         
     
     </li>
@@ -457,6 +438,7 @@
 </nav><hr>
 <nav>
     <ul>
+        <li><a href="#defaulting-to-scripts-templates">Defaulting To Scripts &amp; Templates</a></li>
         <li><a href="#kerfuffle-in-last-deployment">Kerfuffle in Last Deployment</a></li>
         <li><a href="#50-done-w-personal-site">50% Done w/ Personal Site</a></li>
         
@@ -465,42 +447,87 @@
 </aside>
             <main id="terminal-mkdocs-main-content">
 <section id="mkdocs-terminal-content">
-    <h1 id="kerfuffle-in-last-deployment">Kerfuffle in Last Deployment</h1>
-<p><strong>Date: 2025-04-22</strong></p>
-<p><strong>Project: personal-site</strong></p>
-<p><strong>Update: deleted &amp;
-re-created site</strong></p>
-<p>I had unintentionally
-deleted my project site
-files haha. No, it is not
-due to <code>rm -rf</code> being
-misplaced. It is due to how
-<code>mkdocs gh-deploy</code> will
-overwrite whatever
-directory it is in. This
-wasn't too bad as it took
-a few minutes to copy the
-file contents from the
-site back into markdown. It
-does make me want to update
-the <code>mkdocs</code> command to not
-overwrite without letting
-the user known what is
-going to overwritten. I
-doubt many people have
-workflows in which they are
-intending to do that. It
-would help on the usability
-front.</p>
-<h1 id="50-done-w-personal-site">50% Done w/ Personal Site</h1>
-<p><strong>Date: 2025-04-11</strong></p>
-<p><strong>Project: personal-site</strong></p>
-<p><strong>Update: improved site</strong></p>
-<p>I have figured out how improve my prior personal site. That had a single README.md file with aspirations in one page. This realizes it further.</p>
-<p>I suppose one barrier to advancing that was scheduling a regular time to do this work. To make this personal site required some activation amount of work. Now that I've reach a mostly editable and deployable state, I can proceed.</p>
-<p>Originally, my intentions were to use golang but I will pass on that for expediency reasons.</p>
-<p>Eventually, I'll have to update this to use docker instead of python's venv.</p>
-<p>I abhor installing local packages onto my development machine. This extends to python's venv library I had to install. No practical consequences will come from that but it makes development changes less reproducible.</p>
+    <h1 id="defaulting-to-scripts-templates">Defaulting To Scripts &amp; Templates<a class="headerlink" href="#defaulting-to-scripts-templates" title="Permanent link">#</a></h1>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Label</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Date</strong></td>
+<td>2025-05-01</td>
+</tr>
+<tr>
+<td><strong>Project</strong></td>
+<td>Personal-Site</td>
+</tr>
+<tr>
+<td><strong>Update</strong></td>
+<td>Streaming Usage</td>
+</tr>
+</tbody>
+</table>
+<p>It really is true that with ease comes use. I have in fact uploaded to my
+personal site a bit more than I did a few months ago. To improve upon this,
+I've added a script to install &amp; setup a local static site instance and another to deploy to Github. They are 5 liners each but it removes more friction. Now, I can run my scripts and have it deploy with ease. Before, I would have to read my README.md and copy paste commands I wrote there. Now, I don't need to do that. Considering I intend to write indefinitely, this should save me time. I've also updated my Nvim's init.lua config to inject templates to help write my entries. This is where my key-value tables are coming from. I'm hoping that maybe in the future I can use these tables but for now they serve as a way to view metadata about my entries. I've also added a markdown formatter and visualizer in my Nvim' init.lua. They will be helpful in viewing and editing text.</p>
+<h1 id="kerfuffle-in-last-deployment">Kerfuffle in Last Deployment<a class="headerlink" href="#kerfuffle-in-last-deployment" title="Permanent link">#</a></h1>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Label</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Date</strong></td>
+<td>2025-04-22</td>
+</tr>
+<tr>
+<td><strong>Project</strong></td>
+<td>Personal-Site</td>
+</tr>
+<tr>
+<td><strong>Update</strong></td>
+<td>Deleted By Accident</td>
+</tr>
+</tbody>
+</table>
+<p>I had unintentionally deleted my project site files haha. No, it is not due to <code>rm -rf</code> being misplaced. It is due to how <code>mkdocs gh-deploy</code> will overwrite whatever directory it is in. This wasn't too bad as it took a few minutes to copy the file contents from the site back into markdown. It does make me want to update the <code>mkdocs</code> command to not overwrite without letting the user know what is going to be overwritten. I doubt many people have workflows in which they are intending to do that. It would help on the usability front.</p>
+<h1 id="50-done-w-personal-site">50% Done w/ Personal Site<a class="headerlink" href="#50-done-w-personal-site" title="Permanent link">#</a></h1>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Label</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Date</strong></td>
+<td>2025-04-11</td>
+</tr>
+<tr>
+<td><strong>Project</strong></td>
+<td>Personal-Site</td>
+</tr>
+<tr>
+<td><strong>Update</strong></td>
+<td>Massive Improvements</td>
+</tr>
+</tbody>
+</table>
+<p>Previously, my personal site had a single <code>README.md</code> with all my
+aspirations. During this update, I used mkdocs to make it nicer.</p>
+<p>Originally, my intentions were to use Golang to setup a static site but mkdocs does the job just fine. No reason to let perfect or a narrowed focus get in the way of making something useable.</p>
+<p>I suppose one barrier to making progress on this site was scheduling a
+regular time to make updates. I think there was some friction to update it as
+well. Now that I've reach a mostly editable and deployable state, I can
+proceed more easily. Hopefully with more edits.</p>
+<p>Eventually, I'll have to update this to use Docker instead of python's venv as I abhor installing local packages onto my development machine. No practical consequences will come from leaving it as is, but I don't prefer it.</p>
 </section>
 
             </main>
